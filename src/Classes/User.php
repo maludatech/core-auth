@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-require_once "Dbh.php";
+require_once __DIR__ . "/Dbh.php";
 
 class User extends Dbh
 {

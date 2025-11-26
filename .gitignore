@@ -1,0 +1,51 @@
+# Composer
+/vendor/
+/composer.lock          # Remove this line if you WANT to commit lock file (recommended for apps, not libraries)
+
+/composer.phar
+
+# PHP & Composer caches
+/composer/
+/.php-cs-fixer.cache
+/.phpunit.result.cache
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example           # Keep example file
+
+# Laravel specific
+/.env
+/storage/*.key
+/storage/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*.php
+/storage/logs/
+/bootstrap/cache/*.php
+/public/storage          # storage symlink
+/public/hot              # Laravel Mix HMR
+
+# Node / Frontend (if you have JS/CSS build tools)
+node_modules/
+/npm-debug.log
+/yarn-error.log
+/yarn-debug.log
+/.pnp
+/.pnp.js
+/dist
+/build
+/public/build           # Vite/Inertia/Livewire
+/public/mix-manifest.json
+/public/hot
+
+# PHPStorm / IDEs
+.idea/
+*.iml
+.vscode/
+*.sublime-*
+
+# OS & Editor files
+.DS_Store
+Th

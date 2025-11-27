@@ -61,7 +61,7 @@
                 <?php endif; ?>
 
                 <!-- Form -->
-                <form action="../handlers/login.inc.php" method="POST" class="space-y-6">
+                <form action="../src/handlers/login.inc.php" method="POST" class="space-y-6">
 
                     <div>
                         <label class="block text-sm font-medium mb-2 text-gray-700 dark:text-gray-300">
